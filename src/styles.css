@@ -1,1 +1,219 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(135, 145, 175);
+    background-color: rgb(10, 25, 50);
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 6em;
+}
+.barra{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5em;
+}
+.barra nav ul{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    align-items: center;
+}
+.barra nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.barra nav ul li img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.barra nav ul li a{
+    text-decoration: none;
+    color: rgb(203, 215, 250);
+    font-weight: 800;
+}
+.barra nav ul li p{
+    text-decoration-color: rgb(203, 215, 250);
+    border-color: rgb(135, 145, 175);
+    list-style: none;
+    font-size: x-large;
+    border-bottom: 5px;
+    border-style: ridge;
+    border-color: rgb(203, 215, 250);
+    padding: 0.4em;
+}
+.Inicio{
+    height: 850px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.inicio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Texto{
+    display: block;
+    margin: 0;
+    text-align: center;
+    color: rgb(203, 215, 250);
+    font-size: 20px;
+}
+.Texto img{
+    border-radius: 50%;
+}
+.Imagen img{
+    border-radius: 50%;
+    width: 325px;
+    height: 325px;
+}
+.SECTP{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height: auto;
+    width: 85%;
+    margin: auto;
+    display: block;
+
+}
+.SECTP h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Sobremi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sobremi img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.contenido h1{
+    color:#64ffda;
+    font-weight: 800;
+    text-align: center;
+    font-size: 35px;
+
+}
+.Texto1{
+    text-decoration: none;
+    color: rgb(135, 145, 175);
+    font-size: 25px;
+    text-align: right;
+}
+.estudios{
+    font-size: 20px;
+}
+.EASP{
+    color: rgb(135, 145, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.IE{
+    display: block;
+}
+.ie{
+    display: flex;
+    align-items: center;
+}
+.EASP h2{
+    color: rgb(135, 145, 175);
+    padding-right: 50px;
+}
+.EASP img{
+    width: 160px;
+    height: 160px;
+}
+.conocimientos{
+    margin-top: 50px;
+    display: block;
+    justify-content: space-between;
+}
+.Conocimientos{
+    margin-bottom: 150px;
+}
+.detalles{
+    justify-content: center;
+    display: flex;
+    color: rgb(203, 215, 250);
+}
+.porcentaje{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    border: 1px solid #64daff;
+    border-radius: 25px;
+}
+.porcentaje div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #64daff;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Proyecto{
+    display: block;
+    justify-content: space-between;
+}
+.titulo{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(203, 215, 250);
+}
+.Experiencia{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#html{
+    animation: html-barra 3s forwards;
+}
+@keyframes html-barra{
+    100%{
+        width: 85%;
+    }
+}
+#css{
+    animation: css-barra 3s forwards;
+}
+@keyframes css-barra{
+    100%{
+        width: 80%;
+    }
+}
+#JS{
+    animation: JS-barra 3s forwards;
+}
+@keyframes JS-barra{
+    100%{
+        width: 60%;
+    }
+}
+#angular{
+    animation: angular-barra 3s forwards;
+}
+@keyframes angular-barra{
+    100%{
+        width: 75%;
+    }
+}
